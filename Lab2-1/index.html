@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module2 Lab1: HTML</title>
+  <meta name="description" content="This is a Module2 Lab1 exercise for HTML.">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Asuka Matoba">
+  <style>
+    table, th, td {
+     border: 1px solid black;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <!-- works like <a href="/index.html">Home</a> -->
+      <a href="/">Home</a>
+      <a href="./form.html">Form</a>
+      <a href="/form">/Form</a>
+    </nav>
+  </header>
+
+  <h1>Module2 Lab1 learning HTML</h1>
+  <article>
+  <h2>Leaning p, pre, ul, ol, li, article tags</h2>
+  
+    <!--Content added in previous points-->
+  <div>Cats</div>
+  <div>Dogs</div>
+  <div>Pigs</div>
+
+  <span>Cats</span>
+  <span>Dogs</span>
+  <span>Pigs</span>
+
+  <p>
+    p represents paragraph
+  </p>
+  
+  <pre>
+    Text in         a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks
+  </pre>
+
+  <ul>
+    <li>Cats</li>
+    <li>Dogs</li>
+    <li>Pigs</li>
+  </ul>
+
+  <ol>
+    <li>Cats</li>
+    <li>Dogs</li>
+    <li>Pigs</li>
+  </ol>
+  </article>
+
+  <article>
+    <h2>Learning table, thead, tbody, tr, td, th</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">First header</th>
+          <th>Second header</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>First cell-first row</td>
+          <td>Second cell-first row</td>
+          <td>Third cell-first row</td>
+        </tr>
+        <tr>
+          <td>First cell-second row</td>
+          <td>Second cell-second row</td>
+          <td rowspan="2">Third cell-second row</td>
+        </tr>
+        <tr>
+          <td>First cell-third row</td>
+          <td>Second cell-third row</td>
+        </tr>
+      </tbody>
+    </table>
+  </article>
+
+  <article>
+    <h2>Learning Multimedia in HTML</h2>
+
+    <img src="https://picsum.photos/200/300" alt="Various pics" />
+    <br>
+    <br>
+    <br>
+
+    <video controls width="400">
+    <source src="/src/assets/flower.webm"
+      type="video/webm">
+    <source src="/src/assets/flower.webm"
+      type="video/mp4">
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+    <br><br><br>
+
+    <audio 
+    controls
+    src="src/assets/t-rex-roar.mp3">
+        Your browser does not support the
+        <code>audio</code> element.>
+
+    </audio>
+  </article>
+
+  <main>
+  </main>
+  <footer>Copyright 2021 &copy;</footer>
+
+  
+</body>
+
+</html>

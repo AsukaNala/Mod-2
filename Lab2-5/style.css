@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:ital,wght@1,200&family=Roboto+Slab:wght@400;800&display=swap');
+
+
+
+html, body { 
+  margin: 10px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5rem;
+  background-color: rgb(245, 225, 227);
+}
+
+.left {
+  padding: 20px;
+  margin: 30px;
+}
+
+
+  
+
+img {
+  border-radius: 50%;
+  width: 600px;
+ 
+}
+
+p {
+  word-wrap: break-word;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  color: rgb(84, 96, 108);
+  text-decoration: underline dotted 3px rgb(84, 96, 108);
+  }
+
+h2 {
+  color: rgb(84, 96, 108);
+  text-decoration: underline dotted 3px rgb(84, 96, 108);
+  }
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 28,
+}
+    
+
+
+
+.info-icon {
+  font-size: 2rem;
+  align-items: center;
+  vertical-align:bottom;
+}
+
+
+ 
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(255, 62, 165);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  }
+
+.left-content {
+  background-color: lightpink;
+  padding: 10px;
+}
+
+
+
+.right {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  width: 60%;
+  padding: 20px;
+}
+
+
+
+.aboutme {
+  flex-grow: 1;
+  
+}
+
+.workexp {
+  flex-grow: 2;
+  
+}
+/* Responsive */
+ @media screen and (max-width: 500px) { 
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    border-radius: 50%;
+    width: 400px;
+  } 
+  h1 {
+    font-size: 40px;
+  }
+  .right {
+    margin: 30px;
+    width: 400px;
+  }
+  div.aboutme > p {
+    background-color: lightpink;
+    padding: 10px;
+  }
+  div.workexp > section {
+    background-color: lightpink;
+    padding: 10px;
+  }
+}
